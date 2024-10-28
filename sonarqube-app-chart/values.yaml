@@ -1,0 +1,12 @@
+sonarqubeApplicationName : sonarqube-app
+
+namespace: tooling
+
+sonarqubeimage: 
+  name: 339712841242.dkr.ecr.eu-west-2.amazonaws.com/sonarqube-repo/sonarqube-app:latest
+  tag: "latest"
+
+sonarqubeservice: sonarqube-app-service
+serviceingress:  sonarqube-ingress-service
+
+sonarqubeappbaseURL : sonarqube.techrite.org
